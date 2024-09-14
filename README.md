@@ -11,6 +11,9 @@ Moreover, to ellaborate this dataset, two databases were used as reference. Thes
 - Heat recovery potential dataset, licensed by CC BY 4.0: the data can be accessed to following the link: https://s-eenergies-open-data-euf.hub.arcgis.com/search?categories=%252Fcategories%252Fd5.1
 
 The details of the information contained in the dataset are herunder explained:
-
+-Basic data: Company names, addresses, locations, coordinates. 
+-Financial data: Stammkapital, Grundkapital and Hafteinlage
+-'Hydrogen potential', 'Distributed Hydrogen Potential TWh' and 'Subsector_Name': hydrogen potential associated to the companies when matching them with the Fraunhofer database and the value assigned with the methodology used during the methodology.
+-'level_i' and 'Distributed level_i', 'Eurostat_Name', and 'Distributedlevel_i', 'Distributed: hydrogen potential associated to the companies when matching them with the Fraunhofer database and the value assigned with the methodology used during the methodology.
     
 
