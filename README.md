@@ -22,5 +22,12 @@ The details of the information contained in the dataset are herunder explained:
 In order to visualize the results and be able to locate the companies addressed in the database easily, an interactive map was generated and attached to the GitHub repository associated to this thesis \cite{githubmasterthesis}. The colour of the dots of the map are associated to the sector the company belongs to, something which can be seen in the legend. Some of the sectors encapsulate multiple subsectors, for the following cases: the mineral industry sector includes non-metallic minerals and mineral processing subsectors, and the metal industry sector includes iron and steel, metal processing, non-ferrous metals and steel, primary subsectors. Moreover, the size of the dot indicates the magnitude of the capital, thus providing a graphic overview of the information obtained. 
 Whenever the cursor is placed over a dot, a label with the name, sector, capital, hydrogen potential and heat recovery potential is shown.
 
-# Codes Use of Heat Recovery Potential 
+# Use_of_Heat_Recovery_Potential_Reference_Database.ipynb and Use_of_Hydroge_Potential_Reference_Database.ipynb
+Code used to find energy intensive industries from the reference databases (Hydrogen and Heat recovery potential databases) in the Handelsregister registered companies.
+
+# XML_files_download_ with_Selenium.ipynb
+Code used to download XML files with structured information of companies in the Handelsregister
+
+# Geocoding_addresses.ipynb
+Code used to find coordinates from the addresses in the data sources used.
 
