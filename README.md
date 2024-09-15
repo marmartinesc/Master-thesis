@@ -11,9 +11,16 @@ Moreover, to ellaborate this dataset, two databases were used as reference. Thes
 - Heat recovery potential dataset, licensed by CC BY 4.0: the data can be accessed to following the link: https://s-eenergies-open-data-euf.hub.arcgis.com/search?categories=%252Fcategories%252Fd5.1
 
 The details of the information contained in the dataset are herunder explained:
--Basic data: Company names, addresses, locations, coordinates. 
--Financial data: Stammkapital, Grundkapital and Hafteinlage
--'Hydrogen potential', 'Distributed Hydrogen Potential TWh' and 'Subsector_Name': hydrogen potential associated to the companies when matching them with the Fraunhofer database and the value assigned with the methodology used during the methodology.
--'level_i' and 'Distributed level_i', 'Eurostat_Name', and 'Distributedlevel_i', 'Distributed: hydrogen potential associated to the companies when matching them with the Fraunhofer database and the value assigned with the methodology used during the methodology.
-    
+-*Basic data*: Found un columns 'Name', 'Address', 'Latitude', 'Longitude', 'Register_identifier' and 'Postal_Code'. 
+-*Financial data*: 'Stammkapital' for GmbH companies, 'Grundkapital' for AG companies and Hafteinlage for KG companies.
+-'Hydrogen potential': Hydrogen potential in Tera Watts hour associated to the companies extracted from the Fraunhofer's database.
+-'Distributed Hydrogen Potential TWh': Hydrogen potential assigned with the methodology used to deal with duplicate matches when comparing data sources.
+-'Subsector_Name': Ssubsector associated to the companies extracted from the Fraunhofer's database.
+-'level_1_Tj', 'level_2_Tj' and 'level_3_Tj','level_1_r_Tj', 'level_2_r_Tj' and 'level_3_r_Tj': Heat recovery potential in Tera Joules associated to the companies when matching them with the heat recovery potential database when using as reference temperature 25°C, 55°C and 95°C for levels 1, 2 and 3 respectively and the value assigned with the methodology used during the methodology.
+
+# Map (Map_Representing_Capital_of_Energy_Intensive_Industries_Germany.html)
+In order to visualize the results and be able to locate the companies addressed in the database easily, an interactive map was generated and attached to the GitHub repository associated to this thesis \cite{githubmasterthesis}. The colour of the dots of the map are associated to the sector the company belongs to, something which can be seen in the legend. Some of the sectors encapsulate multiple subsectors, for the following cases: the mineral industry sector includes non-metallic minerals and mineral processing subsectors, and the metal industry sector includes iron and steel, metal processing, non-ferrous metals and steel, primary subsectors. Moreover, the size of the dot indicates the magnitude of the capital, thus providing a graphic overview of the information obtained. 
+Whenever the cursor is placed over a dot, a label with the name, sector, capital, hydrogen potential and heat recovery potential is shown.
+
+# Codes Use of Heat Recovery Potential 
 
