@@ -1,5 +1,5 @@
 # Master-thesis
-The files uploaded in this file contain the code used during the development on my Master Thesis on the "Exploratory Data Analysis of the Handelsregister to Estimate the Energy Consumption of Germany's Industry Sectors". Moreover, there is a Database attached containing the result of the data analysis, as well as a .html file with a map to visualize the results from the dataset.
+The files uploaded in this file contain the thesis document, the dataset created, the map generated and code used during the development on my Master Thesis on the "Exploratory Data Analysis of the Handelsregister to Estimate the Energy Consumption of Germany's Industry Sectors", which . Moreover, there is a Database attached containing the result of the data analysis, as well as a .html file with a map to visualize the results from the dataset.
 
 # Dataset (Master_Thesis_Maria.db)
 The final database in SQLite format is constructed by integrating information from three primary sources: the Handelsregister (Commercial Register) and two publicly available energy consumption databases. This combination provides a comprehensive view of energy-intensive industries. 
