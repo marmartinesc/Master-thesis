@@ -31,6 +31,8 @@ Code used to download XML files with structured information of companies in the 
 # Geocoding_addresses.ipynb
 Code used to find coordinates from the addresses in the data sources used.
 
-# Codes 
+# lots_validation_H2potential.ipynb and Plots_validation_Heat_level3.ipynb
 Code used to create the plots for evaluating the correlation between financial data and energy consumption.
 
+# Generating_final_dataset-ipynb
+Code to create final dataset from the datasets created in Use_of_Heat_Recovery_Potential_Reference_Database.ipynb and Use_of_Hydroge_Potential_Reference_Database.ipynb
