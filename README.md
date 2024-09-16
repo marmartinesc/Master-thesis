@@ -31,3 +31,6 @@ Code used to download XML files with structured information of companies in the 
 # Geocoding_addresses.ipynb
 Code used to find coordinates from the addresses in the data sources used.
 
+# Codes 
+Code used to create the plots for evaluating the correlation between financial data and energy consumption.
+
